@@ -6,22 +6,29 @@
 
 nav{
     background-color: rgb(37, 94, 233);;
-    padding-left: 300px;
+    padding-left: 200px;
     font-size: 60px;
 }
 
-.links{
-    font-weight: 600;
-    font-family: Arial, Helvetica, sans-serif;
-
+g{
+    line-height: 90px;
+    vertical-align: middle;
+    display: inline;
 }
 
 .link{
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 10px;
     padding: 10px;
     text-decoration: none;
     color: white;
-    font-size: 70px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.link:hover{
+    text-decoration: underline;
 }
 
 .prima{
@@ -30,5 +37,13 @@ nav{
     margin: auto;
     background-image: url("../img/jumbo.png");
     background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 150px;
+}
 
+h2{
+    font-size: 100px;
 }
